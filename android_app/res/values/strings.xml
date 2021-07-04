@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Casa Inteligente</string>
+    <string name="lampada_1">Lâmpada 1</string>
+    <string name="lampada_2">Lâmpada 2</string>
+    <string name="quarto">Quarto</string>
+    <string name="garagem">Garagem</string>
+    <string name="title_activity_alarme">Alarme</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="luzes">Iluminação</string>
+    <string name="alarme">Alarme</string>
+    <string name="porta_entrada">Porta Entrada</string>
+    <string name="swportaentrada">swPortaEntrada</string>
+    <string name="interna">Interna</string>
+    <string name="irrigar">Irrigação</string>
+    <string name="climatizacao">Climatização</string>
+    <string name="title_activity_luzes">Iluminação</string>
+    <string name="title_activity_irrigar">Irrigação</string>
+    <string name="jardim">Jardim</string>
+
+</resources>

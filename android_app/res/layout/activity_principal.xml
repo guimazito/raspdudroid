@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <ImageView
+                    android:id="@+id/imgLuzes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lampada" />
+                <Button
+                    android:id="@+id/btnLuzes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:onClick="luzesOnClick"
+                    android:text="@string/luzes" />
+            </LinearLayout>
+            
+			<LinearLayout 
+		    	android:layout_width="match_parent"
+            	android:layout_height="wrap_content" >
+                <ImageView
+                    android:id="@+id/imgTemperatura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/temperatura" />
+                <Button
+                    android:id="@+id/btnTemperatura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperatura"
+                    android:textColor="#FFFFFF" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+            	android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgAlarme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/alarme" />
+
+                <Button 
+                    android:id="@+id/btnAlarme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alarme"
+                    android:onClick="AlarmeOnClick"
+                    android:textColor="#FFFFFF"/>
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+            	android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgArcondicionado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arcondicionado" />
+
+                <Button 
+                    android:id="@+id/btnArcondicionado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/climatizacao"
+                    android:textColor="#FFFFFF"/>
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+            	android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgIrrigacao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/irrigar" />
+
+                <Button 
+                    android:id="@+id/btnIrrigacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/irrigar"
+                    android:onClick="irrigarOnClick"
+                    android:textColor="#FFFFFF"/>
+			</LinearLayout>
+			
+		</LinearLayout>	
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+h1 {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 16px;
+   }
+
+   
+#box_temp {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-weight: bold;
+		width: 400px;
+		height: 100px;
+		border-width: 3px;
+}  
+
+#box_luz {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-weight: bold;
+		width: 300px;
+		height: 230px;
+		border-width: 3px;
+} 
+
+#box_lamp2 {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-weight: bold;
+		width: 300px;
+		height: 130px;
+		border-width: 3px;
+}  
+   
+ 
+#temp_frio {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 16px;
+		color: blue;
+}
+#temp_quente {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 16px;
+		color: red;
+}
+#temp_normal {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 16px;
+		color: gray;	
+}
+#temp_desc {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 9px;
+}
+   
+b {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 14px;
+  }
+
+ 
+#rodape {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 12px;	
+}
+	
+	
+a:link, a:active {
+	text-decoration: none;
+	color: royalblue;
+	}
+a:visited {
+		color: royalblue;
+		}
+a:hover {
+		text-decoration: underline; 
+		color: red;
+		font-size:105%;
+		}
