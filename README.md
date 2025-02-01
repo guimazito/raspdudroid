@@ -1,4 +1,4 @@
-<h1>Home-automation using Arduino, Raspberry Pi, Android and PHP</h1>
+<h1>Home automation using Arduino, Raspberry Pi, Android and PHP</h1>
 
 <h3>Main idea</h3>
 
